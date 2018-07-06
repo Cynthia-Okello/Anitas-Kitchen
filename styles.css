@@ -1,3 +1,8 @@
-img-two{
-  align-image:centre;
+#image{
+  text-align:center;
+  background-image: url ("../images/landing.jpg");
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+
 }
