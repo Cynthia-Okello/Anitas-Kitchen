@@ -1,0 +1,31 @@
+#image{
+  text-align:center;
+  background-image: url("../images/landing.jpg");
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  height:100vh;
+
+}
+.jumbotron{
+  margin:0;
+  padding:0;
+}
+#breakfast{
+  background-image: url("../images/foodtop/breakfast.jpg");
+  padding-bottom:100px;
+
+
+}
+#lunch{
+  background-image: url("../images/foodtop/lunch.jpg");
+  padding-bottom:100px;
+}
+#dinner{
+  background-image: url("../images/foodtop/dinner.jpg");
+  padding-bottom:100px;
+}
+.row{
+  padding:0;
+  margin:0;
+}
