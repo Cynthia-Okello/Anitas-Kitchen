@@ -1,14 +1,18 @@
-# Independent Project
-
-## Instructions
-  1) Please clone the Moringa School **mpft1-ip** repo to your computer.
-
-  2) Create a repo on your profile, and copy the files from **mpft1-ip** to your new repo.
-  
-  3) Fix up the folder structure.
-
-  4) Submit your link through Moringa School LMS.
-
-  5) Complete the independent project.
-  
-  6) Push your commits up to your repo.
+# Title
+Anita's Kitchen!
+## Author
+Cynthia Okello
+## Description
+In this project I am making a landing webpage for Anita where it is going to contain the full layout of how it should be.
+## Prerequisite
+-Web browser
+-Git
+## Installation
+1) Go to github
+2) Look at repository and click Anitas-Kitchen
+3) In Anitas-Kitchen repo you will see a green bar written clone or download
+4) Click on that and copy the link you find there
+5) Use that link to open my project.
+## License
+MIT License
+&copy; Copyright 2018 Cynthia Okello
