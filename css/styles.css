@@ -10,15 +10,62 @@
   padding-bottom: 100px;
   margin-bottom: 10px;
   padding-left: -20px;
+  }
 
-
+  #snav
+{
+ height: 100%;
+ width: 0;
+ position: fixed;
+ z-index: 1;
+ top: 0;
+ left: 0;
+ background-color: #111;
+ overflow-x: hidden;
+ transition: 0.5s;
+ padding-top: 60px;
+ text-align:center;
 }
+#sidenav a {
+ padding: 8px 8px 8px 32px;
+ text-decoration: none;
+ font-size: 25px;
+ color: #818181;
+ display: block;
+ transition: 0.3s;
+}
+#snav a:hover
+{
+ color: #f1f1f1;
+}
+
+#snav .closebtn {
+ position: absolute;
+ top: 0;
+ right: 25px;
+ font-size: 36px;
+ margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+.snav {padding-top: 15px;}
+.snav a {font-size: 18px;}
+}
+#snad
+{
+ float:center;
+ text-align: left;
+ padding-top: 10px;
+ padding-bottom: 10px;
+ color: white;
+}
+
 .jumbotron{
   margin:0;
   padding:0;
 }
 #breakfast{
-  background-image: url("../images/foodtop/breakfast.jpg");
+  background-image: url("../images/breakfast.jpg");
   padding:70px;
   color:white;
   padding-left: -40px;
@@ -28,7 +75,7 @@
 }
 
 #lunch{
-  background-image: url("../images/foodtop/lunch.jpg");
+  background-image: url("../images/lunch.jpg");
   padding:70px;
   color:white;
     margin-top: -10px;
@@ -36,11 +83,13 @@
 
 }
 #dinner{
-  background-image: url("../images/foodtop/dinner.jpg");
-  padding:70px;
+  background-image: url("../images/dinner.jpg");
+  padding-top: 60px;
+  padding-bottom: 80px;
+  padding-left: 100px;
   color:white;
     margin-top: -10px;
-    padding-right: -20px;
+    padding-right: 228px;
     width: 305px;
 }
 .row{
@@ -60,11 +109,11 @@
   margin-right: 0px;
 }
 #pictures{
-  background-image: url("../images/backgrounds/foodsBg.jpg");
+  background-image: url("../images/foodsBg.jpg");
   padding-top:100px;
   padding-bottom:200px;
   padding-left:120px;
-  color:white;
+  color:black
 
 }
 #fastfood{
@@ -86,6 +135,7 @@
 h4{
   font-size: 30px;
   font-weight: bold;
+  font-family: cursive;
 }
 #Food{
   padding:20px;
@@ -95,8 +145,17 @@ h4{
   text-align: center;
 }
 .mail{
-  background-image: url("../images/backgrounds/subscribe.jpg");
+  background-image: url("../images/subscribe.jpg");
   color:white;
   text-align: center;
-  padding: 60px;
+  padding-bottom:100px;
+  padding-top:100px;
+}
+.cnt
+{
+  background-color: white;
+}
+.social{
+  padding-bottom:0px;
+  padding-top:20px;
 }
